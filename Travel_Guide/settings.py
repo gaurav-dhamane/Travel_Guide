@@ -130,6 +130,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Added
 
+STATIC_ROOT = "app-root/repo/wsgi/static"
+
+
 STATICFILES_DIRS = [
     BASE_DIR / "static",
     '/var/www/static/',
